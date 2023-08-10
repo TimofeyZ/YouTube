@@ -1,0 +1,56 @@
+a{
+display: block ;
+background-color: aliceblue;
+text-decoration: none;
+border-radius: 5px;
+line-height: 40px;
+margin-top: 15px;
+color: blue;
+}
+a:hover{
+background-color: rgb(132, 250, 240);
+transition: 0.3s;
+}
+img{
+    transition: 0.3s;
+margin: auto;
+    display: block ;
+border-radius: 100px;
+
+}
+.cards{
+    width: 800px;
+    background: none;
+    box-shadow: none;
+
+}
+div{
+
+box-shadow: 0 0 20px green;
+display: inline-block;
+margin: 5px;
+padding: 15px;
+background-image: url("ф2.avif");
+border-radius:5px ;
+}
+body{ 
+    text-align: center;
+    background-image: url("ф.jpg");
+    
+    font-family: 'Roboto Slab', serif;
+   }
+   h3{
+
+color: blue;
+
+   }
+   h1{
+color: aliceblue;
+
+
+   }
+   .cards div:hover img{
+
+    box-shadow: 0 0 20px green;
+
+   }
